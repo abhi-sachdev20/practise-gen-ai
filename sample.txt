@@ -1,0 +1,5 @@
+This document is about Generative AI.
+
+Generative AI is a type of artificial intelligence that can create text, images, and code.
+
+It is widely used in chatbots, automation, and content generation.
