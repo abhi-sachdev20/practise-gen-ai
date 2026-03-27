@@ -2,8 +2,11 @@ import streamlit as st
 import faiss
 import numpy as np
 from openai import OpenAI
+import os
 
-client = OpenAI(api_key="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")
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+client = OpenAI(api_key=api_key)
 
 from pypdf import PdfReader
 from sentence_transformers import SentenceTransformer, util
